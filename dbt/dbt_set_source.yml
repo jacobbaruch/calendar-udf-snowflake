@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: calendar_udf
+    database: YOUR_DATABASE
+    schema: YOUR_SCHEMA
+    tables:
+      - name: generate_calendar
